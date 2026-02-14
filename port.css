@@ -44,6 +44,14 @@ ul{
 
 }
 
+#ba{
+    width: 120px;
+    height: 120px;
+    float: right;
+}
+#sa{
+    text-align: center;
+}
 nav ul{
     
     margin: 10px 10px 0px 10px;
@@ -53,8 +61,13 @@ nav ul{
 nav ul li{
     display: inline;
     padding: 5px 10px 5px 10px;
+    border-right: 2px solid black;
+  
 }
- 
+nav ul li:last-child{
+    border-right: none;
+}
+
 ul li a:link, ul li :visited{
     color: black;
     border-bottom: none;
@@ -98,9 +111,15 @@ ul li a:link, ul li :visited{
 #memberscellh1 img{
     width:100%;
 }
-
 #memberscellh2{
+    display: table-cell;
+    width:50%;
+    vertical-align: top;
     padding: 20px;
+
+}
+#memberscellh2 img{
+    width:100%;
 }
 #memberscellj1{
     display: table-cell;
@@ -110,12 +129,16 @@ ul li a:link, ul li :visited{
     background-color: white;
 }
 
+#memberscellj1 img{
+    width: 100%;
+}
 #memberscellj2{
     display: table-cell;
     width:50%;
 }
 #memberscellj2 img{
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -250,5 +273,11 @@ a:link{
     text-decoration: none;
 }
 a:hover{
-    background-color: rgb(129, 191, 212);
+    text-decoration: underline;
 }
+
+#fa{
+    background-color: rgb(129, 191, 212);
+    margin: auto;
+}
+
