@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "Lumainari";
+    src: url(Luminari-Regular.ttf);
+}
+
+body{
+    background-image: url(background2_v1.jpg);
+    background-size: cover;
+    margin: 0;
+    
+}
+
+h1{
+    font-family: Lumainari;
+}
+#name{
+    float: left;
+    padding: 10px;
+    margin: auto;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin: 40px;
+    line-height: 37px;
+}
+
+header{
+    width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+nav{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ul{
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+nav ul{
+    
+    margin: 10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+ 
+ul li a:link, ul li :visited{
+    color: black;
+    border-bottom: none;
+}
+.tableContainer{
+    display: table;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tableRow{
+    display: table-row;
+}
+
+.hero{
+    width: 980px;
+}
+.hero img{
+    width: 100%;
+}
+#herocell1{
+    display: table-cell;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#herocell1 img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+#memecell1{
+    text-align: center;
+
+}
+#memberscellh1{
+    display: table-cell;
+    width:50%;
+    vertical-align: top;
+    padding: 20px;
+}
+#memberscellh1 img{
+    width:100%;
+}
+
+#memberscellh2{
+    padding: 20px;
+}
+#memberscellj1{
+    display: table-cell;
+    width:50%;
+    vertical-align: top;
+    padding: 20px;
+    background-color: white;
+}
+
+#memberscellj2{
+    display: table-cell;
+    width:50%;
+}
+#memberscellj2 img{
+    width: 100%;
+}
+
+
+#memberscelle1{
+    display: table-cell;
+    width:50%;
+    vertical-align: top;
+    padding: 20px;
+
+} 
+#memberscelle2{
+    padding: 20px;
+}
+#memberscelle1 img{
+    width:100%;
+} 
+#memberscelle2{
+    display: table-cell;
+    width:50%;
+    background-color: white;
+} 
+#songcell1{
+    display: table-cell;
+    width:50%;
+    text-align: center;
+    background-color: white;
+}
+#albumcell1{
+    display: table-cell;
+    width:50%;
+}
+#albumcell1 img{
+    width: 100%;
+}
+#albumcell2{
+    display: table-cell;
+    width:50%;  
+}
+#albumcell2 img{
+    width:100%;  
+}
+#tourcell2{
+    display: table-cell;
+    width:50%;
+    text-align: center;
+    background-color: white;
+}
+#tourcell1{
+    display: table-cell;
+    width: 60%;
+    vertical-align: top;
+}
+#tourcell1 img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+#postercell1{
+    display: table-cell;
+    width:50%;
+    text-align: center;
+    
+}
+
+#postercell1 img{
+    width:100%;
+    margin-bottom: -4px;
+}
+#merchcell1{
+    display: table-cell;
+    width:50%;
+    text-align: center;
+    background-color: white;
+}
+#storecell1{
+    display: table-cell;
+    width:50%;
+    
+}
+#storecell2{
+    display: table-cell;
+    width:50%;
+    
+}
+#storecell5{
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+      
+}
+#storecell6{
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    background-color: white;  
+}
+
+#storecell7{
+    display: table-cell;
+    width:50%;
+    background-color: white;
+    text-align: center;
+    border:  solid black;
+    
+}
+#storecell3{
+    display: table-cell;
+    width:50%;
+    background-color: white;
+    text-align: center;
+    border:  solid black;
+    
+}
+#storecell4{
+    display: table-cell;
+    width:50%;
+    background-color: white;
+    text-align: center;
+    border: solid black;
+    
+}
+footer{
+    width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    height: 130px;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(129, 191, 212);
+}
