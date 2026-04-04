@@ -1,17 +1,30 @@
-@font-face {
-    font-family: "Lumainari";
-    src: url(Luminari-Regular.ttf);
-}
+
 
 body{
     background-image: url(background2_v1.jpg);
     background-size: cover;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
 h1{
-    font-family: Lumainari;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
 }
 #name{
     float: left;
@@ -19,7 +32,7 @@ h1{
     margin: auto;
 }
 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: large;
     margin: 40px;
     line-height: 37px;
