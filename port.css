@@ -151,13 +151,6 @@ ul li a:link, ul li :visited{
     width: 100%;
   
 }
-#memberscellj2{
-    display: table-cell;
-    width:50%;
-    vertical-align: top;
-    padding: 20px;
-    background-color: white;
-}
 
 #memberscelle1{
     display: table-cell;
