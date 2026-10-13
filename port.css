@@ -146,15 +146,18 @@ ul li a:link, ul li :visited{
 #memberscellj1 img{
     width: 100%;
 }
+
+#memberscellj2 img{
+    width: 100%;
+  
+}
 #memberscellj2{
     display: table-cell;
     width:50%;
+    vertical-align: top;
+    padding: 20px;
+    background-color: white;
 }
-#memberscellj2 img{
-    width: 75%;
-    height: 75%;
-}
-
 
 #memberscelle1{
     display: table-cell;
